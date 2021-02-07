@@ -1,0 +1,24 @@
+﻿  main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Users\Lily\source\repos\GraphServer\GraphServer\Graph.h(64,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lily\source\repos\GraphServer\GraphServer\Graph.h(65,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lily\source\repos\GraphServer\GraphServer\Graph.h(66,15): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Lily\source\repos\GraphServer\GraphServer\Graph.h(69,17): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Lily\source\repos\GraphServer\GraphServer\GraphServer.h(207,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned short', possible loss of data
+  Generating code
+  1 of 2247 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GraphServer.vcxproj -> C:\Users\Lily\source\repos\GraphServer\x64\Release\GraphServer.exe
